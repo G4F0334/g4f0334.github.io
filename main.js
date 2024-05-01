@@ -1,4 +1,5 @@
 let c = document.getElementById('canvas')
+var b = document.createElement('button');
 let $ = c.getContext('2d')
 
 let col = function (x, y, r, g, b) {
@@ -31,3 +32,7 @@ let run = function() {
 }
 
 run()
+
+function btn_click() {
+    document.getElementById("gena").style.display = "block"
+}

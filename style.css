@@ -23,6 +23,21 @@ canvas {
     z-index: -1;
 }
 
+.gena {
+    display: none;
+    height: 225px;
+    width: 400px;
+
+    position: fixed;
+    top: 110px;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    background-image: url("loading/image/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .centertext {
     height: 200px;
     width: 400px;
@@ -62,6 +77,23 @@ a:link, a:visited {
 
 a:hover, a:active {
     color: aqua;
+}
+
+.centertext h1 button {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    font-size: 35px;
+
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .centertext h1, .centertext h2, .centertext h3, .centertext h4, .centertext h5, .centertext h6 {
