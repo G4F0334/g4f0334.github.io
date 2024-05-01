@@ -23,7 +23,7 @@ canvas {
     z-index: -1;
 }
 
-.toptext {
+.centertext {
     height: 200px;
     width: 400px;
 
@@ -36,6 +36,34 @@ canvas {
     text-align: center;
 }
 
-.toptext h1, .toptext h2, .toptext h3, .toptext h4 {
+.info {
+    height: 200px;
+    width: 400px;
+
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+    text-align: center;
+}
+
+.info h5 {
+    margin: 5px;
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+a:hover, a:active {
+    color: aqua;
+}
+
+.centertext h1, .centertext h2, .centertext h3, .centertext h4, .centertext h5, .centertext h6 {
     margin: 5px;
 }
