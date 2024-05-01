@@ -50,4 +50,4 @@ Config.backgroundImage = "";
  */
 Config.enableDebug = false;
 
-Config.EnableTest = true;
+Config.EnableTest = false;
