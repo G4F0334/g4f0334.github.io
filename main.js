@@ -15,7 +15,7 @@ let G = function (x, y, t) {
 }
 
 let B = function (x, y, t) {
-    return (Math.floor(192 + 64 * Math.sin(5 * Math.sin(t / 9) + ((x - 100) * (x * 100) + (y - 100) * (y - 100)) / 1100)))
+    return (Math.floor(192 + 64 * Math.sin(5 * Math.sin(t / 9) + ((x - 100) * (x - 100) + (y - 100) * (y - 100)) / 1100)))
 }
 
 let t = 0
@@ -26,7 +26,7 @@ let run = function() {
             col(x,y,R(x, y, t), G(x,y,t), B(x,y,t))
         }
     }
-    t = t + 0.120
+    t = t + 0.01
     window.requestAnimationFrame(run)
 }
 
