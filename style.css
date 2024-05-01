@@ -1,11 +1,41 @@
 body {
-    height: 100%;
     margin: 0;
     overflow: hidden;
     box-sizing: border-box;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: larger;
+
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 canvas {
     width: 100%;
     height: 100%;
+
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.toptext {
+    height: 200px;
+    width: 400px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+    text-align: center;
+}
+
+.toptext h1, .toptext h2, .toptext h3, .toptext h4 {
+    margin: 5px;
 }
