@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="text/javascript">
+      document.write(
+        '<link rel="stylesheet" href="css/main.css?' + Math.random() + '">'
+      );
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/main.css" /> -->
+    <title>Loading Screen</title>
+  </head>
+  <body>
+    
+    <div class="background">
+      <canvas id="canvas" width="32" height="32"></canvas>
+    </div>
+
+    <div class="overhaul"></div>
+    <audio id = "g4faudio" src="music2.mp3" autoplay = "autoplay" preload = "auto" ></audio> <!--autoplay = "autoplay" preload = "auto"-->
+    <script>
+      var audio = document.getElementById("g4faudio");
+      audio.volume = 0.02;
+    </script>
+    
+    <div id="debug"></div>
+
+    <main>
+      <div class="title">
+        <h2>👷‍♂️ NETWORK ROLEPLAY 🔨</h2>
+        <h1 id="title">Добро пожаловать</h1>
+        <div id="history"></div>
+      </div>
+      <div class="under-nav">
+        <nav>
+          <span id="map">by G4F</span>
+        </nav>
+      </div>
+      <div class="loading-box"></div>
+    </main>
+
+
+    <script src="js/lib/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+      document.write(
+        '<script src="js/config.js?' + Math.random() + '"><\/script>'
+      );
+      document.write(
+        '<script src="js/main.js?' + Math.random() + '"><\/script>'
+      );
+    </script>
+    <script src="js/gradient.js"></script>
+    <!-- <script src="config.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
+  </body>
+</html>
