@@ -25,6 +25,7 @@ function GameDetails(
   }
 
   $("#servername").html(servername);
+  $("#servername").fadeIn();
   $("#title").fadeIn();
 
   //if (Config.enableMap) {
