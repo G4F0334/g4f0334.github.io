@@ -82,3 +82,7 @@ h1 {
   width: 100%;
   position: absolute;
 }
+
+.servername {
+  margin-bottom: 10px;
+}
